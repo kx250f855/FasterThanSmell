@@ -1,4 +1,4 @@
-Log file open, 07/07/14 01:20:04
+Log file open, 07/11/14 00:57:54
 LogInit:Display: Running engine for game: MyProject3
 LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
 LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
@@ -7,465 +7,573 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.2
 LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Unreal Engine 4/Unreal Engine/4.2/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.07.07-06.20.04:449][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.07.07-06.20.04:476][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.07.07-06.20.04:481][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.07.07-06.20.04:486][  0]LogInit: Object subsystem initialized
-[2014.07.07-06.20.04:488][  0]LogInit: Selected Device Profile: [Windows]
-[2014.07.07-06.20.04:488][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.07.07-06.20.04:491][  0]LogInit: Computer: BADGER-PC
-[2014.07.07-06.20.04:491][  0]LogInit: User: Kevin
-[2014.07.07-06.20.04:492][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.07.07-06.20.04:492][  0]LogInit: High frequency timer resolution =3.428038 MHz
-[2014.07.07-06.20.04:492][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
-[2014.07.07-06.20.04:492][  0]LogMemory: Platform Memory Stats for Windows
-[2014.07.07-06.20.04:492][  0]LogMemory: Process Physical Memory: 53.12 MB used, 53.12 MB peak
-[2014.07.07-06.20.04:492][  0]LogMemory: Process Virtual Memory: 29.59 MB used, 29.59 MB peak
-[2014.07.07-06.20.04:492][  0]LogMemory: Physical Memory: 3983.64 MB used, 16328.34 MB total
-[2014.07.07-06.20.04:492][  0]LogMemory: Virtual Memory: 246.47 MB used, 134217728.00 MB total
-[2014.07.07-06.20.04:513][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670 (Feature Level 11_0)
-[2014.07.07-06.20.04:513][  0]LogD3D11RHI: Adapter has 3995MB of dedicated video memory, 0MB of dedicated system memory, and 8164MB of shared system memory, 1 output[s]
-[2014.07.07-06.20.04:514][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2014.07.07-06.20.04:514][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2014.07.07-06.20.04:514][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.07.07-06.20.04:516][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.07.07-06.20.04:523][  0]LogD3D11RHI: Async texture creation enabled
-[2014.07.07-06.20.04:602][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.07.07-06.20.05:258][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.07.07-06.20.05:320][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.07.07-06.20.05:344][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.07.07-06.20.05:374][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Kevin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.07.07-06.20.05:374][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kevin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
-[2014.07.07-06.20.05:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.07.07-06.20.05:374][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.07.07-06.20.05:382][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.07.07-06.20.05:393][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kevin/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
-[2014.07.07-06.20.05:510][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.07.07-06.20.05:510][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.07.07-06.20.05:733][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.07.07-06.20.05:972][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
-[2014.07.07-06.20.05:972][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
-[2014.07.07-06.20.05:976][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
-[2014.07.07-06.20.05:976][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
-[2014.07.07-06.20.06:167][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.07.07-06.20.06:240][  0]SourceControl: Info Source control is disabled
-[2014.07.07-06.20.06:240][  0]SourceControl: Info Source control is disabled
-[2014.07.07-06.20.06:243][  0]SourceControl: Info Source control is disabled
-[2014.07.07-06.20.06:300][  0]BlueprintLog: New page: Editor Load
-[2014.07.07-06.20.06:322][  0]LogObj: 19137 objects as part of root set at end of initial load.
-[2014.07.07-06.20.06:322][  0]LogUObjectAllocator: 3804776 out of 0 bytes used by permanent object pool.
-[2014.07.07-06.20.06:499][  0]LogEngine: Initializing Engine...
-[2014.07.07-06.20.06:570][  0]LogInit: XAudio2 using 'Speakers (4- Logitech G35 Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
-[2014.07.07-06.20.06:576][  0]LogInit: FAudioDevice initialized.
-[2014.07.07-06.20.06:593][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Kevin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.07.07-06.20.06:596][  0]LogInit: Texture streaming: Enabled
-[2014.07.07-06.20.06:636][  0]LogInit: Transaction tracking system initialized
-[2014.07.07-06.20.06:704][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
-[2014.07.07-06.20.06:795][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.07.07-06.20.06:798][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.07.07-06.20.06:825][  0]LogConsoleResponse:Display: 
-[2014.07.07-06.20.06:969][  0]SourceControl: Info Source control is disabled
-[2014.07.07-06.20.06:969][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.07.07-06.20.06:969][  0]LightingResults: New page: Lighting Build
-[2014.07.07-06.20.06:974][  0]MapCheck: New page: Map Check
-[2014.07.07-06.20.06:974][  0]LightingResults: New page: Lighting Build
-[2014.07.07-06.20.06:984][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000758EF1D580
-[2014.07.07-06.20.07:107][  0]LogLinker:Warning: Asset '../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/Props/SM_MatPreviewMesh_02.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2014.07.07-06.20.07:303][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2014.07.07-06.20.07:316][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2014.07.07-06.20.07:321][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2014.07.07-06.20.07:326][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
-[2014.07.07-06.20.07:330][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
-[2014.07.07-06.20.07:331][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
-[2014.07.07-06.20.07:335][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.07.07-06.20.07:335][  0]Cmd: MAP CHECKDEP
-[2014.07.07-06.20.07:336][  0]MapCheck: New page: Minimal_Default - Jul 6, 2014, 8:20:07 PM
-[2014.07.07-06.20.07:365][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [29.183ms] ==========
-[2014.07.07-06.20.07:365][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.395
-[2014.07.07-06.20.07:441][  0]LogCollectionManager: Loaded 0 collections in 0.000676 seconds
-[2014.07.07-06.20.07:499][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.07.07-06.20.07:499][  0]Cmd: MODE PLACEMENT
-[2014.07.07-06.20.07:538][  0]LogLoad: Full Startup: 3.58 seconds (BP compile: 0.06 seconds)
-[2014.07.07-06.20.07:548][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.07.07-06.20.07:614][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
-[2014.07.07-06.20.07:652][  1]LogRenderer:Warning: Reallocating scene render targets to support 776x608.
-[2014.07.07-06.20.07:654][  1]LogAssetRegistry: Asset discovery search completed in 0.9612 seconds
-[2014.07.07-06.20.07:851][ 10]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>ACE5EDCC229D8E27</RequestId><HostId>WP+dffPSfpRE9hZW8n/lRi8I+gki/3SfqTTN5Tj6ge4DXqXWrpaNyD9sMH6N5bCJ</HostId></Error>
-[2014.07.07-06.20.07:961][ 22]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BFE3E8F355B88A2E</RequestId><HostId>oyTe83NTYEQzL++avHYuwCrBDg5BW9h6B5GiTC0mrsoFrsikWb4MsL+7/FJfukOU</HostId></Error>
-[2014.07.07-06.20.07:971][ 23]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>80F550E0A336938A</RequestId><HostId>bQwmyQDMdkdvapbv4mxsdvuegDN2BOiiHf1noRXaUE0zimRazcogjc8slvhBO375</HostId></Error>
-[2014.07.07-06.20.08:025][ 30]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>579618F7D4B1BF34</RequestId><HostId>IMcO3ym2w6fhIZXsL2JvJIZI8+kVdlWIpktqnoeiN/HTOmrBNgYyW1r2V1SsjWT2</HostId></Error>
-[2014.07.07-06.20.08:055][ 33]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.07.07-06.20.08:056][ 33]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.07.07-06.20.08:102][ 39]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>22EE1BFFD1833DCB</RequestId><HostId>CDYLPyvdCFRe1T257s78JeFahrVZJkiIxmZgfcs2vHY64NuqNJO8Q10/IV9cY+qs</HostId></Error>
-[2014.07.07-06.20.09:658][156]LogRenderer:Warning: Reallocating scene render targets to support 1136x1016.
-[2014.07.07-06.20.11:411][346]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.07.07-06.20.11:411][346]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
-[2014.07.07-06.20.11:445][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
-[2014.07.07-06.20.11:445][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2014.07.07-06.20.11:461][346]LogPlayLevel: PIE:  Blueprint regeneration took 50 ms (1 blueprints)
-[2014.07.07-06.20.11:462][346]PIE: New page: PIE session: Minimal_Default (Jul 6, 2014, 8:20:11 PM)
-[2014.07.07-06.20.11:464][346]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.20.11:464][346]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.20.11:464][346]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.20.11:464][346]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.20.11:464][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002466s)
-[2014.07.07-06.20.11:465][346]LogPlayLevel: PIE: World Init took: (0.000714s)
-[2014.07.07-06.20.11:465][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003339s)
-[2014.07.07-06.20.11:465][346]LogWorld: Game class is 'GameMode'
-[2014.07.07-06.20.11:508][346]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.07-01.20.11
-[2014.07.07-06.20.11:508][346]LogWorld: Bringing up level for play took: 0.001331
-[2014.07.07-06.20.11:508][346]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
-[2014.07.07-06.20.11:508][346]LogGameMode: RestartPlayer 256
-[2014.07.07-06.20.11:509][346]LogPlayerController: ClientRestart_Implementation DefaultPawn_0
-[2014.07.07-06.20.11:509][346]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_0
-[2014.07.07-06.20.11:510][346]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.86
-[2014.07.07-06.20.11:571][347]LogRenderer:Warning: Reallocating scene render targets to support 1136x1024.
-[2014.07.07-06.20.16:019][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007588EB6F20
-[2014.07.07-06.20.17:014][981]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.07.07-06.20.17:014][981]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
-[2014.07.07-06.20.17:051][981]LogPlayLevel: PIE:  Blueprint regeneration took 37 ms (1 blueprints)
-[2014.07.07-06.20.17:051][981]PIE: New page: PIE session: Minimal_Default (Jul 6, 2014, 8:20:17 PM)
-[2014.07.07-06.20.17:053][981]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.20.17:053][981]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.20.17:053][981]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.20.17:053][981]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.20.17:053][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002534s)
-[2014.07.07-06.20.17:054][981]LogPlayLevel: PIE: World Init took: (0.000503s)
-[2014.07.07-06.20.17:054][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003174s)
-[2014.07.07-06.20.17:054][981]LogWorld: Game class is 'GameMode'
-[2014.07.07-06.20.17:083][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.07-01.20.17
-[2014.07.07-06.20.17:083][981]LogWorld: Bringing up level for play took: 0.001181
-[2014.07.07-06.20.17:084][981]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
-[2014.07.07-06.20.17:084][981]LogGameMode: RestartPlayer 257
-[2014.07.07-06.20.17:084][981]LogPlayerController: ClientRestart_Implementation DefaultPawn_1
-[2014.07.07-06.20.17:084][981]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_1
-[2014.07.07-06.20.17:085][981]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.435
-[2014.07.07-06.20.18:525][140]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007586E35120
-[2014.07.07-06.21.06:507][569]LogSourceControl: Attempting 'svn info "C:/Users/Kevin/Documents/Unreal Projects/FasterThanSmell/" --xml --non-interactive --trust-server-cert --username Burchmeister --password ********'
-[2014.07.07-06.21.07:118][636]SourceControl:Error: Error svn: E155007: 'C:\Users\Kevin\Documents\Unreal Projects\FasterThanSmell' is not a working copy
-[2014.07.07-06.21.07:118][636]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2014.07.07-06.21.56:926][873]LogSourceControl: Attempting 'svn info "C:/Users/Kevin/Documents/Unreal Projects/FasterThanSmell/" --xml --non-interactive --trust-server-cert --username Burchmeister --password ********'
-[2014.07.07-06.21.56:935][874]SourceControl:Error: Error svn: E155007: 'C:\Users\Kevin\Documents\Unreal Projects\FasterThanSmell' is not a working copy
-[2014.07.07-06.21.56:935][874]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
-[2014.07.07-06.26.37:846][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2014.07.07-06.26.39:922][993]SourceControl: Info Source control is disabled
-[2014.07.07-06.26.55:050][572]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.07.07-06.26.55:050][572]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
-[2014.07.07-06.26.55:078][572]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
-[2014.07.07-06.26.55:089][572]LogPlayLevel: PIE:  Blueprint regeneration took 38 ms (1 blueprints)
-[2014.07.07-06.26.55:089][572]PIE: New page: PIE session: Minimal_Default (Jul 6, 2014, 8:26:55 PM)
-[2014.07.07-06.26.55:092][572]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.26.55:092][572]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.26.55:092][572]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.26.55:092][572]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.26.55:092][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002527s)
-[2014.07.07-06.26.55:093][572]LogPlayLevel: PIE: World Init took: (0.000601s)
-[2014.07.07-06.26.55:093][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003263s)
-[2014.07.07-06.26.55:093][572]LogWorld: Game class is 'GameMode'
-[2014.07.07-06.26.55:122][572]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.07-01.26.55
-[2014.07.07-06.26.55:122][572]LogWorld: Bringing up level for play took: 0.001169
-[2014.07.07-06.26.55:123][572]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
-[2014.07.07-06.26.55:123][572]LogGameMode: RestartPlayer 258
-[2014.07.07-06.26.55:123][572]LogPlayerController: ClientRestart_Implementation DefaultPawn_2
-[2014.07.07-06.26.55:123][572]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_2
-[2014.07.07-06.26.55:124][572]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.474
-[2014.07.07-06.27.00:234][169]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007588EB5800
-[2014.07.07-06.27.19:683][348]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.07.07-06.27.19:683][348]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
-[2014.07.07-06.27.19:720][348]LogPlayLevel: PIE:  Blueprint regeneration took 37 ms (1 blueprints)
-[2014.07.07-06.27.19:720][348]PIE: New page: PIE session: Minimal_Default (Jul 6, 2014, 8:27:19 PM)
-[2014.07.07-06.27.19:722][348]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.27.19:722][348]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.27.19:722][348]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.27.19:722][348]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.27.19:722][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002323s)
-[2014.07.07-06.27.19:723][348]LogPlayLevel: PIE: World Init took: (0.000536s)
-[2014.07.07-06.27.19:723][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002984s)
-[2014.07.07-06.27.19:723][348]LogWorld: Game class is 'GameMode'
-[2014.07.07-06.27.19:751][348]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.07-01.27.19
-[2014.07.07-06.27.19:751][348]LogWorld: Bringing up level for play took: 0.001128
-[2014.07.07-06.27.19:752][348]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
-[2014.07.07-06.27.19:752][348]LogGameMode: RestartPlayer 259
-[2014.07.07-06.27.19:752][348]LogPlayerController: ClientRestart_Implementation DefaultPawn_3
-[2014.07.07-06.27.19:752][348]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_3
-[2014.07.07-06.27.19:753][348]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.897
-[2014.07.07-06.27.29:682][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007589902160
-[2014.07.07-06.27.30:423][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CornerFrame)
-[2014.07.07-06.27.45:459][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CornerFrame)
-[2014.07.07-06.27.45:547][218]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (SM_CornerFrame)
-[2014.07.07-06.27.51:518][855]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.07.07-06.27.51:518][855]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
-[2014.07.07-06.27.51:556][855]LogPlayLevel: PIE:  Blueprint regeneration took 38 ms (1 blueprints)
-[2014.07.07-06.27.51:556][855]PIE: New page: SIE session: Minimal_Default (Jul 6, 2014, 8:27:51 PM)
-[2014.07.07-06.27.51:559][855]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.27.51:559][855]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.27.51:559][855]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.27.51:559][855]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.27.51:559][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002303s)
-[2014.07.07-06.27.51:559][855]LogPlayLevel: PIE: World Init took: (0.000450s)
-[2014.07.07-06.27.51:559][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002876s)
-[2014.07.07-06.27.51:559][855]LogWorld: Game class is 'GameMode'
-[2014.07.07-06.27.51:560][855]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.SM_CornerFrame_9"
-[2014.07.07-06.27.51:592][855]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.07-01.27.51
-[2014.07.07-06.27.51:592][855]LogWorld: Bringing up level for play took: 0.001183
-[2014.07.07-06.27.51:593][855]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:1]
-[2014.07.07-06.27.51:594][855]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.944
-[2014.07.07-06.27.51:604][855]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.SM_CornerFrame_9"
-[2014.07.07-06.27.55:180][175]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007597920D60
-[2014.07.07-06.27.55:940][253]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (TargetPoint3)
-[2014.07.07-06.28.02:023][912]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.07.07-06.28.02:023][912]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
-[2014.07.07-06.28.02:059][912]LogPlayLevel: PIE:  Blueprint regeneration took 36 ms (1 blueprints)
-[2014.07.07-06.28.02:059][912]PIE: New page: PIE session: Minimal_Default (Jul 6, 2014, 8:28:02 PM)
-[2014.07.07-06.28.02:061][912]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.02:061][912]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.02:061][912]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.02:061][912]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.02:061][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002266s)
-[2014.07.07-06.28.02:062][912]LogPlayLevel: PIE: World Init took: (0.000560s)
-[2014.07.07-06.28.02:062][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002946s)
-[2014.07.07-06.28.02:062][912]LogWorld: Game class is 'GameMode'
-[2014.07.07-06.28.02:089][912]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.07-01.28.02
-[2014.07.07-06.28.02:090][912]LogWorld: Bringing up level for play took: 0.001206
-[2014.07.07-06.28.02:090][912]LogPlayerController: Spawned spectator SpectatorPawn_5 [server:1]
-[2014.07.07-06.28.02:090][912]LogGameMode: RestartPlayer 261
-[2014.07.07-06.28.02:090][912]LogPlayerController: ClientRestart_Implementation DefaultPawn_4
-[2014.07.07-06.28.02:090][912]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_4
-[2014.07.07-06.28.02:091][912]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.559
-[2014.07.07-06.28.03:631][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007586D1A160
-[2014.07.07-06.28.05:004][241]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.07.07-06.28.05:004][241]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
-[2014.07.07-06.28.05:039][241]LogPlayLevel: PIE:  Blueprint regeneration took 35 ms (1 blueprints)
-[2014.07.07-06.28.05:040][241]PIE: New page: SIE session: Minimal_Default (Jul 6, 2014, 8:28:05 PM)
-[2014.07.07-06.28.05:042][241]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.05:042][241]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.05:042][241]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.05:042][241]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.05:042][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002315s)
-[2014.07.07-06.28.05:043][241]LogPlayLevel: PIE: World Init took: (0.000513s)
-[2014.07.07-06.28.05:043][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002942s)
-[2014.07.07-06.28.05:043][241]LogWorld: Game class is 'GameMode'
-[2014.07.07-06.28.05:043][241]LogSelection:Warning: PIE object was selected: "TargetPoint /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.TargetPoint_3"
-[2014.07.07-06.28.05:069][241]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.07-01.28.05
-[2014.07.07-06.28.05:070][241]LogWorld: Bringing up level for play took: 0.001293
-[2014.07.07-06.28.05:070][241]LogPlayerController: Spawned spectator SpectatorPawn_6 [server:1]
-[2014.07.07-06.28.05:071][241]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.421
-[2014.07.07-06.28.05:076][241]LogSelection:Warning: PIE object was selected: "TargetPoint /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.TargetPoint_3"
-[2014.07.07-06.28.07:679][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007588EB4180
-[2014.07.07-06.28.08:619][643]LogEditorViewport: Clicking on Actor (LMB): proj_C (proj)
-[2014.07.07-06.28.11:724][  2]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.07.07-06.28.11:724][  2]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
-[2014.07.07-06.28.11:759][  2]LogPlayLevel: PIE:  Blueprint regeneration took 35 ms (1 blueprints)
-[2014.07.07-06.28.11:759][  2]PIE: New page: SIE session: Minimal_Default (Jul 6, 2014, 8:28:11 PM)
-[2014.07.07-06.28.11:761][  2]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.11:762][  2]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.11:762][  2]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.11:762][  2]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.11:762][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002671s)
-[2014.07.07-06.28.11:762][  2]LogPlayLevel: PIE: World Init took: (0.000687s)
-[2014.07.07-06.28.11:762][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003499s)
-[2014.07.07-06.28.11:762][  2]LogWorld: Game class is 'GameMode'
-[2014.07.07-06.28.11:763][  2]LogSelection:Warning: PIE object was selected: "proj_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.proj_C_2"
-[2014.07.07-06.28.11:789][  2]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.07-01.28.11
-[2014.07.07-06.28.11:789][  2]LogWorld: Bringing up level for play took: 0.001186
-[2014.07.07-06.28.11:790][  2]LogPlayerController: Spawned spectator SpectatorPawn_7 [server:1]
-[2014.07.07-06.28.11:791][  2]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.859
-[2014.07.07-06.28.11:795][  2]LogSelection:Warning: PIE object was selected: "proj_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.proj_C_2"
-[2014.07.07-06.28.13:191][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007586E35620
-[2014.07.07-06.28.19:010][830]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.07.07-06.28.19:010][830]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
-[2014.07.07-06.28.19:046][830]LogPlayLevel: PIE:  Blueprint regeneration took 36 ms (1 blueprints)
-[2014.07.07-06.28.19:046][830]PIE: New page: SIE session: Minimal_Default (Jul 6, 2014, 8:28:19 PM)
-[2014.07.07-06.28.19:048][830]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.19:048][830]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.19:048][830]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.19:048][830]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.19:049][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002600s)
-[2014.07.07-06.28.19:049][830]LogPlayLevel: PIE: World Init took: (0.000550s)
-[2014.07.07-06.28.19:049][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003321s)
-[2014.07.07-06.28.19:049][830]LogWorld: Game class is 'GameMode'
-[2014.07.07-06.28.19:050][830]LogSelection:Warning: PIE object was selected: "proj_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.proj_C_2"
-[2014.07.07-06.28.19:081][830]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.07-01.28.19
-[2014.07.07-06.28.19:081][830]LogWorld: Bringing up level for play took: 0.001128
-[2014.07.07-06.28.19:082][830]LogPlayerController: Spawned spectator SpectatorPawn_8 [server:1]
-[2014.07.07-06.28.19:083][830]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.433
-[2014.07.07-06.28.19:087][830]LogSelection:Warning: PIE object was selected: "proj_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.proj_C_2"
-[2014.07.07-06.28.21:704][ 19]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007586D1A020
-[2014.07.07-06.28.22:102][ 61]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.07.07-06.28.22:103][ 61]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
-[2014.07.07-06.28.22:138][ 61]LogPlayLevel: PIE:  Blueprint regeneration took 35 ms (1 blueprints)
-[2014.07.07-06.28.22:138][ 61]PIE: New page: SIE session: Minimal_Default (Jul 6, 2014, 8:28:22 PM)
-[2014.07.07-06.28.22:140][ 61]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.22:140][ 61]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.22:140][ 61]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.22:140][ 61]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
-[2014.07.07-06.28.22:141][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002773s)
-[2014.07.07-06.28.22:141][ 61]LogPlayLevel: PIE: World Init took: (0.000485s)
-[2014.07.07-06.28.22:141][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003381s)
-[2014.07.07-06.28.22:141][ 61]LogWorld: Game class is 'GameMode'
-[2014.07.07-06.28.22:141][ 61]LogSelection:Warning: PIE object was selected: "proj_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.proj_C_2"
-[2014.07.07-06.28.22:173][ 61]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.07-01.28.22
-[2014.07.07-06.28.22:173][ 61]LogWorld: Bringing up level for play took: 0.001158
-[2014.07.07-06.28.22:174][ 61]LogPlayerController: Spawned spectator SpectatorPawn_9 [server:1]
-[2014.07.07-06.28.22:175][ 61]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.475
-[2014.07.07-06.28.22:179][ 61]LogSelection:Warning: PIE object was selected: "proj_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.proj_C_2"
-[2014.07.07-06.28.27:059][391]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007588EB4180
-[2014.07.07-06.28.27:161][392]Cmd: QUIT_EDITOR
-[2014.07.07-06.28.27:199][392]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.07.07-06.28.27:200][392]LogExit: Preparing to exit.
-[2014.07.07-06.28.27:518][392]LogExit: Editor shut down
-[2014.07.07-06.28.27:519][392]LogExit: Transaction tracking system shut down
-[2014.07.07-06.28.27:519][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007589822F20
-[2014.07.07-06.28.27:532][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000758811E340
-[2014.07.07-06.28.27:532][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007597AB37E0
-[2014.07.07-06.28.27:532][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007588EB5B20
-[2014.07.07-06.28.27:532][392]LogExit: Object subsystem successfully closed.
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module DesktopPlatform (164)
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module HTTP (161)
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
-[2014.07.07-06.28.27:551][392]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
-[2014.07.07-06.28.27:553][392]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
-[2014.07.07-06.28.27:553][392]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
-[2014.07.07-06.28.27:553][392]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
-[2014.07.07-06.28.27:553][392]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
-[2014.07.07-06.28.27:553][392]LogModuleManager: Shutting down and abandoning module BspMode (149)
-[2014.07.07-06.28.27:553][392]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module XmlParser (141)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module Blutility (140)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module AutomationController (126)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module Layers (124)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
-[2014.07.07-06.28.27:554][392]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module Persona (117)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module Toolbox (113)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module Sequencer (111)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module AssetTools (110)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module OutputLog (108)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module GammaUI (107)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module Documentation (106)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module Analytics (103)
-[2014.07.07-06.28.27:644][392]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
-[2014.07.07-06.28.27:666][392]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
-[2014.07.07-06.28.27:666][392]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
-[2014.07.07-06.28.27:666][392]LogModuleManager: Shutting down and abandoning module Matinee (99)
-[2014.07.07-06.28.27:666][392]LogModuleManager: Shutting down and abandoning module Kismet (98)
-[2014.07.07-06.28.27:666][392]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
-[2014.07.07-06.28.27:666][392]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
-[2014.07.07-06.28.27:667][392]LogModuleManager: Shutting down and abandoning module MainFrame (95)
-[2014.07.07-06.28.27:667][392]LogModuleManager: Shutting down and abandoning module SourceControl (94)
-[2014.07.07-06.28.27:667][392]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
-[2014.07.07-06.28.27:667][392]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
-[2014.07.07-06.28.27:667][392]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2014.07.07-06.28.27:667][392]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2014.07.07-06.28.27:667][392]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
-[2014.07.07-06.28.27:667][392]LogModuleManager: Shutting down and abandoning module MessageLog (88)
-[2014.07.07-06.28.27:667][392]LogModuleManager: Shutting down and abandoning module Slate (87)
-[2014.07.07-06.28.27:667][392]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module SessionServices (85)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module Messaging (84)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module Networking (79)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module Core (78)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
-[2014.07.07-06.28.27:668][392]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
-[2014.07.07-06.28.27:705][392]LogDerivedDataCache: Shutdown
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module Settings (51)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module Renderer (43)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module Engine (42)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
-[2014.07.07-06.28.27:705][392]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
-[2014.07.07-06.28.27:706][392]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
-[2014.07.07-06.28.27:706][392]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
-[2014.07.07-06.28.27:706][392]LogModuleManager: Shutting down and abandoning module CableComponent (30)
-[2014.07.07-06.28.27:706][392]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2014.07.07-06.28.27:706][392]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.07.07-06.28.27:807][392]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.07.07-06.28.27:807][392]LogExit: Exiting.
-[2014.07.07-06.28.27:815][392]Log file closed, 07/07/14 01:28:27
+[2014.07.11-05.57.54:871][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.07.11-05.57.54:898][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.11-05.57.54:904][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.11-05.57.54:909][  0]LogInit: Object subsystem initialized
+[2014.07.11-05.57.54:910][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.11-05.57.54:910][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.11-05.57.54:914][  0]LogInit: Computer: BADGER-PC
+[2014.07.11-05.57.54:914][  0]LogInit: User: Kevin
+[2014.07.11-05.57.54:915][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.07.11-05.57.54:915][  0]LogInit: High frequency timer resolution =3.428038 MHz
+[2014.07.11-05.57.54:915][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2014.07.11-05.57.54:915][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.11-05.57.54:915][  0]LogMemory: Process Physical Memory: 53.16 MB used, 53.16 MB peak
+[2014.07.11-05.57.54:915][  0]LogMemory: Process Virtual Memory: 29.61 MB used, 29.61 MB peak
+[2014.07.11-05.57.54:915][  0]LogMemory: Physical Memory: 3980.47 MB used, 16328.34 MB total
+[2014.07.11-05.57.54:915][  0]LogMemory: Virtual Memory: 242.53 MB used, 134217728.00 MB total
+[2014.07.11-05.57.54:938][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670 (Feature Level 11_0)
+[2014.07.11-05.57.54:938][  0]LogD3D11RHI: Adapter has 3995MB of dedicated video memory, 0MB of dedicated system memory, and 8164MB of shared system memory, 1 output[s]
+[2014.07.11-05.57.54:939][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.07.11-05.57.54:939][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.07.11-05.57.54:939][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.11-05.57.54:942][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.07.11-05.57.54:949][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.11-05.57.55:036][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.07.11-05.57.55:749][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.11-05.57.55:816][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.11-05.57.55:842][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.11-05.57.55:877][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Kevin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.11-05.57.55:878][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kevin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.07.11-05.57.55:878][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.11-05.57.55:878][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.11-05.57.55:886][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.11-05.57.55:898][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kevin/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.07.11-05.57.56:026][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.11-05.57.56:026][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.11-05.57.56:271][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.11-05.57.56:528][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.07.11-05.57.56:528][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.07.11-05.57.56:532][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.07.11-05.57.56:532][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.07.11-05.57.56:734][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.07.11-05.57.56:808][  0]SourceControl: Info Source control is disabled
+[2014.07.11-05.57.56:808][  0]SourceControl: Info Source control is disabled
+[2014.07.11-05.57.56:812][  0]SourceControl: Info Source control is disabled
+[2014.07.11-05.57.56:874][  0]BlueprintLog: New page: Editor Load
+[2014.07.11-05.57.56:897][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.07.11-05.57.56:897][  0]LogUObjectAllocator: 3804784 out of 0 bytes used by permanent object pool.
+[2014.07.11-05.57.57:085][  0]LogEngine: Initializing Engine...
+[2014.07.11-05.57.57:161][  0]LogInit: XAudio2 using 'Speakers (4- Logitech G35 Headset)' : 8 channels at 44.1 kHz using 16 bits per sample (channel mask 0x63f)
+[2014.07.11-05.57.57:167][  0]LogInit: FAudioDevice initialized.
+[2014.07.11-05.57.57:185][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Kevin/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.11-05.57.57:188][  0]LogInit: Texture streaming: Enabled
+[2014.07.11-05.57.57:206][  0]LogInit: Transaction tracking system initialized
+[2014.07.11-05.57.57:280][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2014.07.11-05.57.57:381][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.11-05.57.57:385][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.11-05.57.57:417][  0]LogConsoleResponse:Display: 
+[2014.07.11-05.57.57:572][  0]SourceControl: Info Source control is disabled
+[2014.07.11-05.57.57:573][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.07.11-05.57.57:573][  0]LightingResults: New page: Lighting Build
+[2014.07.11-05.57.57:578][  0]MapCheck: New page: Map Check
+[2014.07.11-05.57.57:578][  0]LightingResults: New page: Lighting Build
+[2014.07.11-05.57.57:588][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C759201580
+[2014.07.11-05.57.57:714][  0]LogLinker:Warning: Asset '../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/Props/SM_MatPreviewMesh_02.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.07.11-05.57.57:770][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.11-05.57.57:770][  0]Cmd: MAP CHECKDEP
+[2014.07.11-05.57.57:770][  0]MapCheck: New page: Minimal_Default - Jul 10, 2014, 7:57:57 PM
+[2014.07.11-05.57.57:799][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [28.848ms] ==========
+[2014.07.11-05.57.57:799][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.227
+[2014.07.11-05.57.57:887][  0]LogCollectionManager: Loaded 0 collections in 0.000679 seconds
+[2014.07.11-05.57.57:953][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.07.11-05.57.57:954][  0]Cmd: MODE PLACEMENT
+[2014.07.11-05.57.58:001][  0]LogLoad: Full Startup: 3.69 seconds (BP compile: 0.06 seconds)
+[2014.07.11-05.57.58:011][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/stuff'
+[2014.07.11-05.57.58:091][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.07.11-05.57.58:135][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x1016.
+[2014.07.11-05.57.58:229][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A9E456DE91F1F303</RequestId><HostId>exznzjUI8mzxiQ1obOam4ej2CDCRz9bBqu0ueqVpRnft0lJhqbtspgI5h/4Vt+Eh</HostId></Error>
+[2014.07.11-05.57.58:234][  1]LogAssetRegistry: Asset discovery search completed in 0.9653 seconds
+[2014.07.11-05.57.58:262][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>59E94AFC404221A8</RequestId><HostId>81l/omeuHrQ+0X8eisZWE+9pp/y7IPrGeckQfXaJkLtGBnPNWHdKxdi0JroaP1z4</HostId></Error>
+[2014.07.11-05.57.58:278][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BDDD88969414437E</RequestId><HostId>kbNRqyi4nmyfkDFZzaf/Sbr4Y3xQPm3meUEAH0NCxmp8UCy1YOtEE4XU4gYHMUHP</HostId></Error>
+[2014.07.11-05.57.58:286][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>99C6146ACFC0DE4C</RequestId><HostId>+1++siHsnQ/Wa/0oQD2unn+n4nOxd2fiR9Xxkjn3PXDLd82sc5b0+RVB9Sqk97Yj</HostId></Error>
+[2014.07.11-05.57.58:343][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>D432A18DBC6E2EDC</RequestId><HostId>lIHk06lOyNaZb+RfqHTfgxCARjoLiifDU8hgljw2gcd+82jbLDYPFPgR3hiUmDnX4fKnA3+lyM0=</HostId></Error>
+[2014.07.11-05.57.58:361][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.11-05.57.58:362][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.11-05.58.54:555][ 50]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.07.11-05.58.57:742][398]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.07.11-05.59.09:085][302]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.07.11-05.59.10:594][447]LogRenderer:Warning: Reallocating scene render targets to support 1224x1016.
+[2014.07.11-05.59.42:301][856]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.07.11-06.00.03:555][784]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.07.11-06.00.03:555][784]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
+[2014.07.11-06.00.03:597][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.07.11-06.00.03:597][784]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.07.11-06.00.03:615][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7556EEE80
+[2014.07.11-06.00.03:615][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C753123D80
+[2014.07.11-06.00.03:618][784]LogPlayLevel: PIE:  Blueprint regeneration took 63 ms (1 blueprints)
+[2014.07.11-06.00.03:618][784]PIE: New page: SIE session: Minimal_Default (Jul 10, 2014, 8:00:03 PM)
+[2014.07.11-06.00.03:646][784]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
+[2014.07.11-06.00.03:646][784]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
+[2014.07.11-06.00.03:646][784]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
+[2014.07.11-06.00.03:646][784]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
+[2014.07.11-06.00.03:646][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027781s)
+[2014.07.11-06.00.03:646][784]LogPlayLevel: PIE: World Init took: (0.000373s)
+[2014.07.11-06.00.03:646][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.028289s)
+[2014.07.11-06.00.03:646][784]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.00.03:686][784]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.11-01.00.03
+[2014.07.11-06.00.03:698][784]LogWorld: Bringing up level for play took: 0.012970
+[2014.07.11-06.00.03:698][784]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.07.11-06.00.03:701][784]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.542
+[2014.07.11-06.00.03:754][785]LogRenderer:Warning: Reallocating scene render targets to support 1224x1024.
+[2014.07.11-06.00.05:910][914]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7531213A0
+[2014.07.11-06.00.24:957][824]Cmd: TRANSACTION UNDO
+[2014.07.11-06.00.24:957][824]LogEditorTransaction: Undo Apply Material to Actor
+[2014.07.11-06.00.53:066][896]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/stuff'
+[2014.07.11-06.01.23:058][111]BlueprintLog: New page: Compile exploding_small_barrel
+[2014.07.11-06.01.23:090][111]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.07.11-06.01.23:090][111]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.07.11-06.01.23:308][111]BlueprintEditorCompileResults: Info [0208.75] Compile of exploding_small_barrel successful! [in 1 ms]
+[2014.07.11-06.01.29:873][779]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.07.11-06.01.29:873][779]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
+[2014.07.11-06.01.29:906][779]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.07.11-06.01.29:921][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C76555F2E0
+[2014.07.11-06.01.29:922][779]LogPlayLevel: PIE:  Blueprint regeneration took 49 ms (1 blueprints)
+[2014.07.11-06.01.29:922][779]PIE: New page: SIE session: Minimal_Default (Jul 10, 2014, 8:01:29 PM)
+[2014.07.11-06.01.29:925][779]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
+[2014.07.11-06.01.29:925][779]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
+[2014.07.11-06.01.29:925][779]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
+[2014.07.11-06.01.29:925][779]LogBlueprint:Warning: FMemberReference::ResolveMember (GetTransform) bSelfContext == true, but no scope supplied!
+[2014.07.11-06.01.29:925][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002915s)
+[2014.07.11-06.01.29:926][779]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2014.07.11-06.01.29:926][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003983s)
+[2014.07.11-06.01.29:927][779]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.01.29:927][779]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.exploding_small_barrel_18"
+[2014.07.11-06.01.29:960][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.07.11-01.01.29
+[2014.07.11-06.01.29:960][779]LogWorld: Bringing up level for play took: 0.001479
+[2014.07.11-06.01.29:960][779]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.07.11-06.01.29:960][779]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.07.11-06.01.29:962][779]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.805
+[2014.07.11-06.01.29:967][779]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.exploding_small_barrel_18"
+[2014.07.11-06.01.31:447][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C753360680
+[2014.07.11-06.01.32:439][ 28]LogEditorViewport: Clicking on Actor (LMB): exploding_small_barrel_C (exploding_small_barrel)
+[2014.07.11-06.01.39:855][654]LogRenderer:Warning: Reallocating scene render targets to support 1232x1024.
+[2014.07.11-06.01.50:307][628]LogRenderer:Warning: Reallocating scene render targets to support 1256x1024.
+[2014.07.11-06.02.23:301][ 97]BlueprintLog: New page: Compile exploding_small_barrel
+[2014.07.11-06.02.23:364][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C76905FBA0
+[2014.07.11-06.02.23:364][ 97]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C76905F2E0
+[2014.07.11-06.02.23:556][ 97]BlueprintEditorCompileResults: Info [0268.99] Compile of exploding_small_barrel successful! [in 1 ms]
+[2014.07.11-06.02.24:081][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/stuff/exploding_small_barrel" FILE="../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/stuff/exploding_small_barrel.uasset" SILENT=true
+[2014.07.11-06.02.24:324][138]LogSavePackage: Save=234.588699ms
+[2014.07.11-06.02.24:324][138]LogSavePackage: Moving '../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Saved/exploding_small_barrel3C5A6B5B450D789610FA22AD8932768E.tmp' to '../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/stuff/exploding_small_barrel.uasset'
+[2014.07.11-06.02.31:556][507]Cmd: MAP LOAD FILE="../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/Maps/first.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.07.11-06.02.31:556][507]LightingResults: New page: Lighting Build
+[2014.07.11-06.02.31:557][507]Cmd: MODE PLACEMENT
+[2014.07.11-06.02.31:572][507]LoadErrors: New page: Loading map: first.umap
+[2014.07.11-06.02.31:572][507]MapCheck: New page: Map Check
+[2014.07.11-06.02.31:572][507]LightingResults: New page: Lighting Build
+[2014.07.11-06.02.31:589][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C765732200
+[2014.07.11-06.02.31:589][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C752C67420
+[2014.07.11-06.02.31:630][507]LogLinker:Warning: Can't find file '/Game/Materials/M_Metal_Black_Steel2'
+[2014.07.11-06.02.31:630][507]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Metal_Black_Steel2' while loading ../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/stuff/cannon.uasset.
+[2014.07.11-06.02.31:630][507]LoadErrors:Error: Error /Game/stuff/cannon : Can't find file for asset. /Game/Materials/M_Metal_Black_Steel2
+[2014.07.11-06.02.31:632][507]LogLinker:Warning: Can't find file '/Game/Materials/M_Metal_Black_Steel2'
+[2014.07.11-06.02.31:632][507]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Metal_Black_Steel2' while loading ../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/stuff/cannon.uasset.
+[2014.07.11-06.02.31:658][507]LogLinker:Warning: Can't find file '/Game/Materials/M_Metal_Black_Steel2'
+[2014.07.11-06.02.31:659][507]LoadErrors: Info Failed to load /Game/Materials/M_Metal_Black_Steel2.M_Metal_Black_Steel2 Referenced by cannon Property /Script/Engine.StaticMesh:Materials
+[2014.07.11-06.02.31:659][507]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Metal_Black_Steel2' while loading NULL.
+[2014.07.11-06.02.31:773][507]LogMaterial:Warning: Material /Game/Materials/M_Water_Ocean.M_Water_Ocean needed to have new flag set bUsedWithLandscape !
+[2014.07.11-06.02.31:774][507]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling.
+[2014.07.11-06.02.31:785][507]LogMaterial: 0.000189 seconds spent updating 1 materials, 1 interfaces, 65 instances, 0 with static permutations.
+[2014.07.11-06.02.31:810][507]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.11-06.02.31:849][507]Cmd: MAP CHECKDEP
+[2014.07.11-06.02.31:849][507]MapCheck: New page: first - Jul 10, 2014, 8:02:31 PM
+[2014.07.11-06.02.31:894][507]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [44.944ms] ==========
+[2014.07.11-06.02.31:894][507]LogFileHelpers: Loading map 'first' took 0.338
+[2014.07.11-06.02.31:963][508]Cmd: UpdateLandscapeEditorData -warnings
+[2014.07.11-06.02.31:964][508]Cmd: UpdateLandscapeEditorData
+[2014.07.11-06.02.37:713][884]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.02.37:713][884]PIE: New page: SIE session: first (Jul 10, 2014, 8:02:37 PM)
+[2014.07.11-06.02.37:739][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026409s)
+[2014.07.11-06.02.37:740][884]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2014.07.11-06.02.37:740][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.027142s)
+[2014.07.11-06.02.37:740][884]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.02.37:740][884]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_28"
+[2014.07.11-06.02.37:785][884]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.02.37
+[2014.07.11-06.02.37:787][884]LogWorld: Bringing up level for play took: 0.019784
+[2014.07.11-06.02.37:788][884]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.07.11-06.02.37:801][884]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first 0.644
+[2014.07.11-06.02.37:807][884]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_28"
+[2014.07.11-06.02.39:423][960]LogEditorPhysMode:Warning: Start Tracking
+[2014.07.11-06.02.39:450][961]LogEditorPhysMode:Warning: Mouse: X=1.000 Y=1.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-0.200000 R=0.000000
+[2014.07.11-06.02.39:450][961]LogEditorPhysMode:Warning: Mouse: X=1.000 Y=1.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=-0.200000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.39:475][962]LogEditorPhysMode:Warning: Mouse: X=9.000 Y=11.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-1.600000 R=0.000000
+[2014.07.11-06.02.39:475][962]LogEditorPhysMode:Warning: Mouse: X=9.000 Y=11.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=-2.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.39:500][963]LogEditorPhysMode:Warning: Mouse: X=22.000 Y=20.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-2.600000 R=0.000000
+[2014.07.11-06.02.39:500][963]LogEditorPhysMode:Warning: Mouse: X=22.000 Y=20.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=-1.800000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.39:526][964]LogEditorPhysMode:Warning: Mouse: X=48.000 Y=36.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-5.200000 R=0.000000
+[2014.07.11-06.02.39:526][964]LogEditorPhysMode:Warning: Mouse: X=48.000 Y=36.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=-3.200000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.39:552][965]LogEditorPhysMode:Warning: Mouse: X=79.000 Y=53.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-6.200000 R=0.000000
+[2014.07.11-06.02.39:552][965]LogEditorPhysMode:Warning: Mouse: X=79.000 Y=53.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=-3.400000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.39:578][966]LogEditorPhysMode:Warning: Mouse: X=107.000 Y=71.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-5.600000 R=0.000000
+[2014.07.11-06.02.39:578][966]LogEditorPhysMode:Warning: Mouse: X=107.000 Y=71.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=-3.600000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.39:604][967]LogEditorPhysMode:Warning: Mouse: X=127.000 Y=82.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-4.000000 R=0.000000
+[2014.07.11-06.02.39:604][967]LogEditorPhysMode:Warning: Mouse: X=127.000 Y=82.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=-2.200000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.39:629][968]LogEditorPhysMode:Warning: Mouse: X=138.000 Y=88.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-2.200000 R=0.000000
+[2014.07.11-06.02.39:630][968]LogEditorPhysMode:Warning: Mouse: X=138.000 Y=88.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=-1.200000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.39:655][969]LogEditorPhysMode:Warning: Mouse: X=145.000 Y=92.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-1.400000 R=0.000000
+[2014.07.11-06.02.39:655][969]LogEditorPhysMode:Warning: Mouse: X=145.000 Y=92.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=-0.800000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.39:678][970]LogEditorPhysMode:Warning: Mouse: X=146.000 Y=93.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-0.200000 R=0.000000
+[2014.07.11-06.02.39:678][970]LogEditorPhysMode:Warning: Mouse: X=146.000 Y=93.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=-0.200000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.39:917][980]LogEditorPhysMode:Warning: End Tracking
+[2014.07.11-06.02.39:918][980]LogEditorPhysMode:Warning: Start Tracking
+[2014.07.11-06.02.40:110][988]LogEditorPhysMode:Warning: Mouse: X=0.000 Y=13.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-13.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:136][989]LogEditorPhysMode:Warning: Mouse: X=1.000 Y=44.000 Z=0.000 InDrag: X=-0.342 Y=0.940 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:136][989]LogEditorPhysMode:Warning: Mouse: X=1.000 Y=44.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-31.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:159][990]LogEditorPhysMode:Warning: Mouse: X=3.000 Y=75.000 Z=0.000 InDrag: X=-0.684 Y=1.880 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:159][990]LogEditorPhysMode:Warning: Mouse: X=3.000 Y=75.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-31.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:183][991]LogEditorPhysMode:Warning: Mouse: X=3.000 Y=85.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-10.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:279][995]LogEditorPhysMode:Warning: Mouse: X=3.000 Y=91.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-6.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:303][996]LogEditorPhysMode:Warning: Mouse: X=4.000 Y=96.000 Z=0.000 InDrag: X=0.342 Y=-0.940 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:303][996]LogEditorPhysMode:Warning: Mouse: X=4.000 Y=96.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-5.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:327][997]LogEditorPhysMode:Warning: Mouse: X=8.000 Y=109.000 Z=0.000 InDrag: X=1.367 Y=-3.759 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:327][997]LogEditorPhysMode:Warning: Mouse: X=8.000 Y=109.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-13.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:352][998]LogEditorPhysMode:Warning: Mouse: X=12.000 Y=121.000 Z=0.000 InDrag: X=1.367 Y=-3.759 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:352][998]LogEditorPhysMode:Warning: Mouse: X=12.000 Y=121.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-12.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:375][999]LogEditorPhysMode:Warning: Mouse: X=13.000 Y=126.000 Z=0.000 InDrag: X=0.342 Y=-0.940 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:375][999]LogEditorPhysMode:Warning: Mouse: X=13.000 Y=126.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-5.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:399][  0]LogEditorPhysMode:Warning: Mouse: X=14.000 Y=127.000 Z=0.000 InDrag: X=0.342 Y=-0.940 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:399][  0]LogEditorPhysMode:Warning: Mouse: X=14.000 Y=127.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-1.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:423][  1]LogEditorPhysMode:Warning: Mouse: X=14.000 Y=128.000 Z=0.000 InDrag: X=-0.000 Y=0.000 Z=-1.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:468][  3]LogEditorPhysMode:Warning: End Tracking
+[2014.07.11-06.02.40:468][  3]LogEditorPhysMode:Warning: Start Tracking
+[2014.07.11-06.02.40:518][  5]LogEditorPhysMode:Warning: Mouse: X=16.000 Y=141.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=0.400000 R=0.000000
+[2014.07.11-06.02.40:518][  5]LogEditorPhysMode:Warning: Mouse: X=16.000 Y=141.000 Z=0.000 InDrag: X=12.186 Y=4.529 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:541][  6]LogEditorPhysMode:Warning: Mouse: X=17.000 Y=175.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=0.200000 R=0.000000
+[2014.07.11-06.02.40:541][  6]LogEditorPhysMode:Warning: Mouse: X=17.000 Y=175.000 Z=0.000 InDrag: X=31.829 Y=11.956 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:566][  7]LogEditorPhysMode:Warning: Mouse: X=19.000 Y=218.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-0.400000 R=0.000000
+[2014.07.11-06.02.40:566][  7]LogEditorPhysMode:Warning: Mouse: X=19.000 Y=218.000 Z=0.000 InDrag: X=40.358 Y=14.839 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:590][  8]LogEditorPhysMode:Warning: Mouse: X=24.000 Y=253.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-1.000000 R=0.000000
+[2014.07.11-06.02.40:590][  8]LogEditorPhysMode:Warning: Mouse: X=24.000 Y=253.000 Z=0.000 InDrag: X=33.056 Y=11.503 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:615][  9]LogEditorPhysMode:Warning: Mouse: X=26.000 Y=287.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-0.400000 R=0.000000
+[2014.07.11-06.02.40:615][  9]LogEditorPhysMode:Warning: Mouse: X=26.000 Y=287.000 Z=0.000 InDrag: X=32.189 Y=10.950 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:638][ 10]LogEditorPhysMode:Warning: Mouse: X=29.000 Y=320.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=-0.600000 R=0.000000
+[2014.07.11-06.02.40:638][ 10]LogEditorPhysMode:Warning: Mouse: X=29.000 Y=320.000 Z=0.000 InDrag: X=31.351 Y=10.300 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:663][ 11]LogEditorPhysMode:Warning: Mouse: X=29.000 Y=352.000 Z=0.000 InDrag: X=30.401 Y=9.988 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:686][ 12]LogEditorPhysMode:Warning: Mouse: X=31.000 Y=384.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=0.400000 R=0.000000
+[2014.07.11-06.02.40:686][ 12]LogEditorPhysMode:Warning: Mouse: X=31.000 Y=384.000 Z=0.000 InDrag: X=30.331 Y=10.200 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:710][ 13]LogEditorPhysMode:Warning: Mouse: X=36.000 Y=410.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=1.000000 R=0.000000
+[2014.07.11-06.02.40:710][ 13]LogEditorPhysMode:Warning: Mouse: X=36.000 Y=410.000 Z=0.000 InDrag: X=24.495 Y=8.716 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:734][ 14]LogEditorPhysMode:Warning: Mouse: X=42.000 Y=434.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=1.200000 R=0.000000
+[2014.07.11-06.02.40:734][ 14]LogEditorPhysMode:Warning: Mouse: X=42.000 Y=434.000 Z=0.000 InDrag: X=22.438 Y=8.518 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:758][ 15]LogEditorPhysMode:Warning: Mouse: X=48.000 Y=454.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=1.200000 R=0.000000
+[2014.07.11-06.02.40:758][ 15]LogEditorPhysMode:Warning: Mouse: X=48.000 Y=454.000 Z=0.000 InDrag: X=18.545 Y=7.488 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:783][ 16]LogEditorPhysMode:Warning: Mouse: X=52.000 Y=465.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=0.800000 R=0.000000
+[2014.07.11-06.02.40:783][ 16]LogEditorPhysMode:Warning: Mouse: X=52.000 Y=465.000 Z=0.000 InDrag: X=10.141 Y=4.260 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:807][ 17]LogEditorPhysMode:Warning: Mouse: X=54.000 Y=471.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=0.400000 R=0.000000
+[2014.07.11-06.02.40:807][ 17]LogEditorPhysMode:Warning: Mouse: X=54.000 Y=471.000 Z=0.000 InDrag: X=5.515 Y=2.362 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:830][ 18]LogEditorPhysMode:Warning: Mouse: X=58.000 Y=477.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=0.800000 R=0.000000
+[2014.07.11-06.02.40:831][ 18]LogEditorPhysMode:Warning: Mouse: X=58.000 Y=477.000 Z=0.000 InDrag: X=5.482 Y=2.439 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:854][ 19]LogEditorPhysMode:Warning: Mouse: X=64.000 Y=488.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=1.200000 R=0.000000
+[2014.07.11-06.02.40:854][ 19]LogEditorPhysMode:Warning: Mouse: X=64.000 Y=488.000 Z=0.000 InDrag: X=9.954 Y=4.681 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:880][ 20]LogEditorPhysMode:Warning: Mouse: X=72.000 Y=501.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=1.600000 R=0.000000
+[2014.07.11-06.02.40:880][ 20]LogEditorPhysMode:Warning: Mouse: X=72.000 Y=501.000 Z=0.000 InDrag: X=11.605 Y=5.859 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:903][ 21]LogEditorPhysMode:Warning: Mouse: X=81.000 Y=514.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=1.800000 R=0.000000
+[2014.07.11-06.02.40:903][ 21]LogEditorPhysMode:Warning: Mouse: X=81.000 Y=514.000 Z=0.000 InDrag: X=11.415 Y=6.220 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:927][ 22]LogEditorPhysMode:Warning: Mouse: X=95.000 Y=529.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=2.800000 R=0.000000
+[2014.07.11-06.02.40:927][ 22]LogEditorPhysMode:Warning: Mouse: X=95.000 Y=529.000 Z=0.000 InDrag: X=12.805 Y=7.812 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:951][ 23]LogEditorPhysMode:Warning: Mouse: X=108.000 Y=541.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=2.600000 R=0.000000
+[2014.07.11-06.02.40:951][ 23]LogEditorPhysMode:Warning: Mouse: X=108.000 Y=541.000 Z=0.000 InDrag: X=9.950 Y=6.708 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:974][ 24]LogEditorPhysMode:Warning: Mouse: X=111.000 Y=546.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=0.600000 R=0.000000
+[2014.07.11-06.02.40:974][ 24]LogEditorPhysMode:Warning: Mouse: X=111.000 Y=546.000 Z=0.000 InDrag: X=4.116 Y=2.838 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.40:999][ 25]LogEditorPhysMode:Warning: Mouse: X=112.000 Y=546.000 Z=0.000 InDrag: X=0.000 Y=0.000 Z=0.000  InRot: P=0.000000 Y=0.200000 R=0.000000
+[2014.07.11-06.02.41:023][ 26]LogEditorPhysMode:Warning: Mouse: X=112.000 Y=547.000 Z=0.000 InDrag: X=0.821 Y=0.571 Z=0.000  InRot: P=0.000000 Y=0.000000 R=0.000000
+[2014.07.11-06.02.41:068][ 28]LogEditorPhysMode:Warning: End Tracking
+[2014.07.11-06.02.41:405][ 46]LogEditorPhysMode:Warning: Start Tracking
+[2014.07.11-06.02.41:497][ 50]LogEditorViewport: Clicking on Actor (LMB): exploding_small_barrel_C (exploding_small_barrel_20)
+[2014.07.11-06.02.41:498][ 50]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_28"
+[2014.07.11-06.02.41:502][ 50]LogEditorPhysMode:Warning: End Tracking
+[2014.07.11-06.02.52:210][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.07.11-06.02.52:237][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C753360360
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:286][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:287][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.02.53:287][943]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.03.44:079][317]BlueprintLog: New page: Compile exploding_small_barrel
+[2014.07.11-06.03.44:381][317]BlueprintEditorCompileResults: Info [0349.77] Compile of exploding_small_barrel successful! [in 1 ms]
+[2014.07.11-06.03.45:492][405]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.03.45:492][405]PIE: New page: SIE session: first (Jul 10, 2014, 8:03:45 PM)
+[2014.07.11-06.03.45:518][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025493s)
+[2014.07.11-06.03.45:518][405]LogPlayLevel: PIE: World Init took: (0.000438s)
+[2014.07.11-06.03.45:519][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.026108s)
+[2014.07.11-06.03.45:519][405]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.03.45:519][405]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.03.45:562][405]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.03.45
+[2014.07.11-06.03.45:564][405]LogWorld: Bringing up level for play took: 0.016128
+[2014.07.11-06.03.45:564][405]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
+[2014.07.11-06.03.45:577][405]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first 0.419
+[2014.07.11-06.03.45:582][405]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.03.48:263][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C762062FC0
+[2014.07.11-06.03.50:613][785]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.03.50:613][785]PIE: New page: SIE session: first (Jul 10, 2014, 8:03:50 PM)
+[2014.07.11-06.03.50:637][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024043s)
+[2014.07.11-06.03.50:637][785]LogPlayLevel: PIE: World Init took: (0.000419s)
+[2014.07.11-06.03.50:637][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.024634s)
+[2014.07.11-06.03.50:637][785]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.03.50:638][785]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.03.50:676][785]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.03.50
+[2014.07.11-06.03.50:678][785]LogWorld: Bringing up level for play took: 0.015787
+[2014.07.11-06.03.50:679][785]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:1]
+[2014.07.11-06.03.50:692][785]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first -0.465
+[2014.07.11-06.03.50:697][785]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.04.27:705][164]LogEditorPhysMode:Warning: Start Tracking
+[2014.07.11-06.04.27:775][167]LogEditorViewport: Clicking on Actor (LMB): exploding_small_barrel_C (exploding_small_barrel_20)
+[2014.07.11-06.04.27:775][167]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.04.27:779][167]LogEditorPhysMode:Warning: End Tracking
+[2014.07.11-06.04.27:860][173]LogEditorPhysMode:Warning: Start Tracking
+[2014.07.11-06.04.27:861][173]LogEditorViewport: Clicking on Actor (double click): exploding_small_barrel_C (exploding_small_barrel_20)
+[2014.07.11-06.04.27:861][173]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.04.27:865][173]LogEditorPhysMode:Warning: End Tracking
+[2014.07.11-06.04.33:893][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C760280680
+[2014.07.11-06.06.15:208][615]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.06.15:208][615]PIE: New page: SIE session: first (Jul 10, 2014, 8:06:15 PM)
+[2014.07.11-06.06.15:235][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026428s)
+[2014.07.11-06.06.15:235][615]LogPlayLevel: PIE: World Init took: (0.000468s)
+[2014.07.11-06.06.15:235][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.027076s)
+[2014.07.11-06.06.15:235][615]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.06.15:236][615]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.06.15:280][615]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.06.15
+[2014.07.11-06.06.15:282][615]LogWorld: Bringing up level for play took: 0.016294
+[2014.07.11-06.06.15:282][615]LogPlayerController: Spawned spectator SpectatorPawn_5 [server:1]
+[2014.07.11-06.06.15:295][615]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first 0.138
+[2014.07.11-06.06.15:301][615]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.06.17:021][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C77B10F2E0
+[2014.07.11-06.06.17:021][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C77B10F920
+[2014.07.11-06.06.17:021][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C77B10CC20
+[2014.07.11-06.06.21:068][142]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.06.21:069][142]PIE: New page: SIE session: first (Jul 10, 2014, 8:06:21 PM)
+[2014.07.11-06.06.21:095][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026373s)
+[2014.07.11-06.06.21:095][142]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2014.07.11-06.06.21:096][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.027006s)
+[2014.07.11-06.06.21:096][142]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.06.21:096][142]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.06.21:140][142]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.06.21
+[2014.07.11-06.06.21:142][142]LogWorld: Bringing up level for play took: 0.016708
+[2014.07.11-06.06.21:143][142]LogPlayerController: Spawned spectator SpectatorPawn_6 [server:1]
+[2014.07.11-06.06.21:156][142]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first -0.002
+[2014.07.11-06.06.21:160][142]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.06.23:353][335]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C77B10D8A0
+[2014.07.11-06.06.29:938][961]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.06.29:938][961]PIE: New page: SIE session: first (Jul 10, 2014, 8:06:29 PM)
+[2014.07.11-06.06.29:964][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025999s)
+[2014.07.11-06.06.29:965][961]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2014.07.11-06.06.29:965][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.026647s)
+[2014.07.11-06.06.29:965][961]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.06.29:965][961]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.06.30:007][961]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.06.30
+[2014.07.11-06.06.30:009][961]LogWorld: Bringing up level for play took: 0.016150
+[2014.07.11-06.06.30:009][961]LogPlayerController: Spawned spectator SpectatorPawn_7 [server:1]
+[2014.07.11-06.06.30:022][961]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first 0.864
+[2014.07.11-06.06.30:027][961]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_2"
+[2014.07.11-06.06.57:767][368]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C77B10CEA0
+[2014.07.11-06.07.29:637][919]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.07.29:637][919]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.07.29:637][919]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.07.29:637][919]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.07.29:637][919]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.07.29:637][919]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.07.34:968][356]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.07.34:968][356]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.07.34:968][356]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.07.34:968][356]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.07.34:968][356]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.07.11-06.08.51:502][836]BlueprintLog: New page: Compile exploding_small_barrel
+[2014.07.11-06.08.51:807][836]BlueprintEditorCompileResults: Info [0657.19] Compile of exploding_small_barrel successful! [in 1 ms]
+[2014.07.11-06.08.52:229][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/stuff/exploding_small_barrel" FILE="../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/stuff/exploding_small_barrel.uasset" SILENT=true
+[2014.07.11-06.08.52:472][872]LogSavePackage: Save=233.684982ms
+[2014.07.11-06.08.52:472][872]LogSavePackage: Moving '../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Saved/exploding_small_barrel2F2114894CB2632573E8E98DE5A690F4.tmp' to '../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/stuff/exploding_small_barrel.uasset'
+[2014.07.11-06.08.56:528][243]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.08.56:528][243]PIE: New page: SIE session: first (Jul 10, 2014, 8:08:56 PM)
+[2014.07.11-06.08.56:554][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025802s)
+[2014.07.11-06.08.56:555][243]LogPlayLevel: PIE: World Init took: (0.000442s)
+[2014.07.11-06.08.56:555][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.026422s)
+[2014.07.11-06.08.56:555][243]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.08.56:555][243]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_39"
+[2014.07.11-06.08.56:595][243]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.08.56
+[2014.07.11-06.08.56:596][243]LogWorld: Bringing up level for play took: 0.015967
+[2014.07.11-06.08.56:597][243]LogPlayerController: Spawned spectator SpectatorPawn_8 [server:1]
+[2014.07.11-06.08.56:610][243]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first -0.547
+[2014.07.11-06.08.56:615][243]LogSelection:Warning: PIE object was selected: "exploding_small_barrel_C /Game/Maps/UEDPIE_0_first.first:PersistentLevel.exploding_small_barrel_C_39"
+[2014.07.11-06.09.02:688][558]LogSavePackage: Save=300.583893ms
+[2014.07.11-06.09.02:688][558]LogSavePackage: Moving '../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Saved/first66FA5534477CDD5D9C969B9C2C435B59.tmp' to '../../../../../../../Users/Kevin/Documents/Unreal Projects/FasterThanSmell/Content/Maps/first.umap'
+[2014.07.11-06.09.02:706][558]LogFileHelpers: Saving map 'first' took 0.381
+[2014.07.11-06.09.02:982][558]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C77B80AAC0
+[2014.07.11-06.09.02:983][558]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C77AFD4680
+[2014.07.11-06.09.03:095][559]Cmd: QUIT_EDITOR
+[2014.07.11-06.09.03:146][559]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.07.11-06.09.03:148][559]LogExit: Preparing to exit.
+[2014.07.11-06.09.04:184][559]LogExit: Editor shut down
+[2014.07.11-06.09.04:184][559]LogExit: Transaction tracking system shut down
+[2014.07.11-06.09.04:185][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7533627A0
+[2014.07.11-06.09.04:185][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7538B8FE0
+[2014.07.11-06.09.04:187][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C770BDD3A0
+[2014.07.11-06.09.04:187][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C75C41C9A0
+[2014.07.11-06.09.04:187][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C765F360C0
+[2014.07.11-06.09.04:187][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C75C41D120
+[2014.07.11-06.09.04:206][559]LogExit: Object subsystem successfully closed.
+[2014.07.11-06.09.04:235][559]LogModuleManager: Shutting down and abandoning module DesktopPlatform (166)
+[2014.07.11-06.09.04:235][559]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (165)
+[2014.07.11-06.09.04:235][559]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (164)
+[2014.07.11-06.09.04:235][559]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2014.07.11-06.09.04:235][559]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
+[2014.07.11-06.09.04:235][559]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.07.11-06.09.04:235][559]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
+[2014.07.11-06.09.04:235][559]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
+[2014.07.11-06.09.04:235][559]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
+[2014.07.11-06.09.04:235][559]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
+[2014.07.11-06.09.04:236][559]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
+[2014.07.11-06.09.04:236][559]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.07.11-06.09.04:236][559]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.07.11-06.09.04:239][559]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.07.11-06.09.04:239][559]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.07.11-06.09.04:240][559]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.07.11-06.09.04:241][559]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.07.11-06.09.04:241][559]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.07.11-06.09.04:241][559]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.07.11-06.09.04:297][559]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.07.11-06.09.04:488][559]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.07.11-06.09.04:488][559]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.07.11-06.09.04:488][559]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.07.11-06.09.04:488][559]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.07.11-06.09.04:488][559]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.07.11-06.09.04:488][559]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.07.11-06.09.04:489][559]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.07.11-06.09.04:489][559]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.07.11-06.09.04:489][559]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.07.11-06.09.04:489][559]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.07.11-06.09.04:489][559]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.07.11-06.09.04:489][559]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.07.11-06.09.04:489][559]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.07.11-06.09.04:489][559]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.07.11-06.09.04:489][559]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.07.11-06.09.04:489][559]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.07.11-06.09.04:490][559]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.07.11-06.09.04:502][559]LogDerivedDataCache: Shutdown
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.07.11-06.09.04:502][559]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.07.11-06.09.04:504][559]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.07.11-06.09.04:504][559]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.07.11-06.09.04:504][559]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.07.11-06.09.04:504][559]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.07.11-06.09.04:504][559]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.07.11-06.09.04:605][559]LogExit: Exiting.
+[2014.07.11-06.09.04:615][559]Log file closed, 07/11/14 01:09:04
