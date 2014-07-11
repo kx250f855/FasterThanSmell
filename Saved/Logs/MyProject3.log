@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 Log file open, 07/11/14 00:57:54
+=======
+Log file open, 07/11/14 00:57:53
+>>>>>>> origin/master
 LogInit:Display: Running engine for game: MyProject3
-LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
-LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.2
 LogInit: Command line: 
-LogInit: Base directory: C:/Program Files/Unreal Engine 4/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Base directory: D:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
 LogInit: Rocket: 1
+<<<<<<< HEAD
 [2014.07.11-05.57.54:871][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
 [2014.07.11-05.57.54:898][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
 [2014.07.11-05.57.54:904][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
@@ -577,3 +582,214 @@ LogInit: Rocket: 1
 [2014.07.11-06.09.04:605][559]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2014.07.11-06.09.04:605][559]LogExit: Exiting.
 [2014.07.11-06.09.04:615][559]Log file closed, 07/11/14 01:09:04
+=======
+[2014.07.11-05.57.53:993][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.07.11-05.57.54:018][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.07.11-05.57.54:023][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.07.11-05.57.54:027][  0]LogInit: Object subsystem initialized
+[2014.07.11-05.57.54:029][  0]LogInit: Selected Device Profile: [Windows]
+[2014.07.11-05.57.54:029][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.07.11-05.57.54:031][  0]LogInit: Computer: CHRIS-RIG
+[2014.07.11-05.57.54:031][  0]LogInit: User: Chris
+[2014.07.11-05.57.54:032][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.07.11-05.57.54:032][  0]LogInit: High frequency timer resolution =3.420549 MHz
+[2014.07.11-05.57.54:032][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2014.07.11-05.57.54:033][  0]LogMemory: Platform Memory Stats for Windows
+[2014.07.11-05.57.54:033][  0]LogMemory: Process Physical Memory: 53.70 MB used, 53.80 MB peak
+[2014.07.11-05.57.54:033][  0]LogMemory: Process Virtual Memory: 29.50 MB used, 29.62 MB peak
+[2014.07.11-05.57.54:033][  0]LogMemory: Physical Memory: 3809.20 MB used, 16336.30 MB total
+[2014.07.11-05.57.54:033][  0]LogMemory: Virtual Memory: 246.07 MB used, 134217728.00 MB total
+[2014.07.11-05.57.54:047][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 Ti (Feature Level 11_0)
+[2014.07.11-05.57.54:047][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2014.07.11-05.57.54:048][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.07.11-05.57.54:048][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.07.11-05.57.54:048][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.07.11-05.57.54:052][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.07.11-05.57.54:059][  0]LogD3D11RHI: Async texture creation enabled
+[2014.07.11-05.57.54:133][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.07.11-05.57.54:734][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.11-05.57.54:789][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.07.11-05.57.54:811][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.07.11-05.57.54:843][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Chris/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.11-05.57.54:843][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.07.11-05.57.54:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Chris/Documents/GitHub/FasterThanSmell/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.07.11-05.57.54:843][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.07.11-05.57.54:850][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.07.11-05.57.54:863][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.07.11-05.57.54:975][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.07.11-05.57.54:975][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.07.11-05.57.55:192][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.07.11-05.57.55:412][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.07.11-05.57.55:412][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.07.11-05.57.55:415][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.07.11-05.57.55:415][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.07.11-05.57.55:602][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.07.11-05.57.55:672][  0]SourceControl: Info Source control is disabled
+[2014.07.11-05.57.55:672][  0]SourceControl: Info Source control is disabled
+[2014.07.11-05.57.55:675][  0]SourceControl: Info Source control is disabled
+[2014.07.11-05.57.55:727][  0]BlueprintLog: New page: Editor Load
+[2014.07.11-05.57.55:747][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.07.11-05.57.55:747][  0]LogUObjectAllocator: 3804648 out of 0 bytes used by permanent object pool.
+[2014.07.11-05.57.55:916][  0]LogEngine: Initializing Engine...
+[2014.07.11-05.57.55:999][  0]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2014.07.11-05.57.56:005][  0]LogInit: FAudioDevice initialized.
+[2014.07.11-05.57.56:024][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Chris/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.07.11-05.57.56:028][  0]LogInit: Texture streaming: Enabled
+[2014.07.11-05.57.56:045][  0]LogInit: Transaction tracking system initialized
+[2014.07.11-05.57.56:106][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2014.07.11-05.57.56:189][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.11-05.57.56:192][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.07.11-05.57.56:217][  0]LogConsoleResponse:Display: 
+[2014.07.11-05.57.56:346][  0]SourceControl: Info Source control is disabled
+[2014.07.11-05.57.56:346][  0]Cmd: MAP LOAD FILE="C:/Users/Chris/Documents/GitHub/FasterThanSmell/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.07.11-05.57.56:346][  0]LightingResults: New page: Lighting Build
+[2014.07.11-05.57.56:350][  0]MapCheck: New page: Map Check
+[2014.07.11-05.57.56:350][  0]LightingResults: New page: Lighting Build
+[2014.07.11-05.57.56:359][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4D9BE4AE0
+[2014.07.11-05.57.56:468][  0]LogLinker:Warning: Asset 'C:/Users/Chris/Documents/GitHub/FasterThanSmell/Content/Props/SM_MatPreviewMesh_02.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.07.11-05.57.56:518][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.11-05.57.56:518][  0]Cmd: MAP CHECKDEP
+[2014.07.11-05.57.56:518][  0]MapCheck: New page: Minimal_Default - Jul 10, 2014, 7:57:56 PM
+[2014.07.11-05.57.56:542][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [23.413ms] ==========
+[2014.07.11-05.57.56:542][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.195
+[2014.07.11-05.57.56:625][  0]LogCollectionManager: Loaded 0 collections in 0.000580 seconds
+[2014.07.11-05.57.56:678][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.07.11-05.57.56:679][  0]Cmd: MODE PLACEMENT
+[2014.07.11-05.57.56:717][  0]LogLoad: Full Startup: 3.18 seconds (BP compile: 0.05 seconds)
+[2014.07.11-05.57.56:727][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.07.11-05.57.56:809][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.07.11-05.57.56:899][  0]LogRenderer:Warning: Reallocating scene render targets to support 1520x1256.
+[2014.07.11-05.57.57:105][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A9E456DE91F1F303</RequestId><HostId>exznzjUI8mzxiQ1obOam4ej2CDCRz9bBqu0ueqVpRnft0lJhqbtspgI5h/4Vt+Eh</HostId></Error>
+[2014.07.11-05.57.57:107][  1]LogAssetRegistry: Asset discovery search completed in 1.0115 seconds
+[2014.07.11-05.57.57:131][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>59E94AFC404221A8</RequestId><HostId>81l/omeuHrQ+0X8eisZWE+9pp/y7IPrGeckQfXaJkLtGBnPNWHdKxdi0JroaP1z4</HostId></Error>
+[2014.07.11-05.57.57:170][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BDDD88969414437E</RequestId><HostId>kbNRqyi4nmyfkDFZzaf/Sbr4Y3xQPm3meUEAH0NCxmp8UCy1YOtEE4XU4gYHMUHP</HostId></Error>
+[2014.07.11-05.57.57:185][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>99C6146ACFC0DE4C</RequestId><HostId>+1++siHsnQ/Wa/0oQD2unn+n4nOxd2fiR9Xxkjn3PXDLd82sc5b0+RVB9Sqk97Yj</HostId></Error>
+[2014.07.11-05.57.57:238][  7]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>D432A18DBC6E2EDC</RequestId><HostId>lIHk06lOyNaZb+RfqHTfgxCARjoLiifDU8hgljw2gcd+82jbLDYPFPgR3hiUmDnX4fKnA3+lyM0=</HostId></Error>
+[2014.07.11-05.57.57:276][  9]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.11-05.57.57:277][  9]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.07.11-05.58.15:466][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.07.11-05.58.15:482][253]Cmd: MAP LOAD FILE="C:/Users/Chris/Documents/GitHub/FasterThanSmell/Content/Maps/first.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.07.11-05.58.15:483][253]LightingResults: New page: Lighting Build
+[2014.07.11-05.58.15:483][253]Cmd: MODE PLACEMENT
+[2014.07.11-05.58.15:497][253]LoadErrors: New page: Loading map: first.umap
+[2014.07.11-05.58.15:498][253]MapCheck: New page: Map Check
+[2014.07.11-05.58.15:498][253]LightingResults: New page: Lighting Build
+[2014.07.11-05.58.15:512][253]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4D3F154E0
+[2014.07.11-05.58.15:578][253]LogLinker:Warning: Can't find file '/Game/Materials/M_Metal_Black_Steel2'
+[2014.07.11-05.58.15:578][253]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Metal_Black_Steel2' while loading C:/Users/Chris/Documents/GitHub/FasterThanSmell/Content/stuff/cannon.uasset.
+[2014.07.11-05.58.15:578][253]LoadErrors:Error: Error /Game/stuff/cannon : Can't find file for asset. /Game/Materials/M_Metal_Black_Steel2
+[2014.07.11-05.58.15:579][253]LogLinker:Warning: Can't find file '/Game/Materials/M_Metal_Black_Steel2'
+[2014.07.11-05.58.15:579][253]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Metal_Black_Steel2' while loading C:/Users/Chris/Documents/GitHub/FasterThanSmell/Content/stuff/cannon.uasset.
+[2014.07.11-05.58.15:602][253]LogLinker:Warning: Can't find file '/Game/Materials/M_Metal_Black_Steel2'
+[2014.07.11-05.58.15:602][253]LoadErrors: Info Failed to load /Game/Materials/M_Metal_Black_Steel2.M_Metal_Black_Steel2 Referenced by cannon Property /Script/Engine.StaticMesh:Materials
+[2014.07.11-05.58.15:602][253]LogLinker:Warning: Can't find file for asset '/Game/Materials/M_Metal_Black_Steel2' while loading NULL.
+[2014.07.11-05.58.15:705][253]LogMaterial:Warning: Material /Game/Materials/M_Water_Ocean.M_Water_Ocean needed to have new flag set bUsedWithLandscape !
+[2014.07.11-05.58.15:706][253]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling.
+[2014.07.11-05.58.15:716][253]LogMaterial: 0.000159 seconds spent updating 1 materials, 1 interfaces, 65 instances, 0 with static permutations.
+[2014.07.11-05.58.15:725][253]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.07.11-05.58.15:742][253]Cmd: MAP CHECKDEP
+[2014.07.11-05.58.15:742][253]MapCheck: New page: first - Jul 10, 2014, 7:58:15 PM
+[2014.07.11-05.58.15:771][253]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [28.854ms] ==========
+[2014.07.11-05.58.15:771][253]LogFileHelpers: Loading map 'first' took 0.289
+[2014.07.11-05.58.15:798][254]Cmd: UpdateLandscapeEditorData -warnings
+[2014.07.11-05.58.15:799][254]Cmd: UpdateLandscapeEditorData
+[2014.07.11-05.58.24:005][418]LogEditorViewport: Clicking on Actor (LMB): exploding_small_barrel_C (exploding_small_barrel_3)
+[2014.07.11-05.58.27:203][703]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.07.11-05.58.27:203][703]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/stuff'
+[2014.07.11-05.59.07:845][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.07.11-05.59.22:035][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/stuff/exploding_small_barrel_Child2" FILE="C:/Users/Chris/Documents/GitHub/FasterThanSmell/Content/stuff/exploding_small_barrel_Child2.uasset" SILENT=true
+[2014.07.11-05.59.22:247][986]LogSavePackage: Save=208.972305ms
+[2014.07.11-05.59.22:247][986]LogSavePackage: Moving 'C:/Users/Chris/Documents/GitHub/FasterThanSmell/Saved/exploding_small_barrel_Child2A91FC40D42FCA61CA265A2BFE5095094.tmp' to 'C:/Users/Chris/Documents/GitHub/FasterThanSmell/Content/stuff/exploding_small_barrel_Child2.uasset'
+[2014.07.11-05.59.23:225][ 20]BlueprintLog: New page: Compile exploding_small_barrel_Child2
+[2014.07.11-05.59.23:446][ 20]BlueprintEditorCompileResults: Info [0089.69] Compile of exploding_small_barrel_Child2 successful! [in 0 ms]
+[2014.07.11-05.59.29:149][206]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.07.11-05.59.32:035][288]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/stuff'
+[2014.07.11-06.00.03:855][207]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.07.11-06.00.55:990][759]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/stuff'
+[2014.07.11-06.01.08:634][722]LogDestructible:Warning: MainMesh Tris: 284
+[2014.07.11-06.01.08:647][722]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2014.07.11-06.01.08:647][722]LogApexDestructibleAssetImport:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2014.07.11-06.01.08:660][722]LogSkeletalMesh: Chunk 0: 220 rigid vertices, 0 soft vertices, 1 active bones
+[2014.07.11-06.01.08:661][722]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 284 triangles
+[2014.07.11-06.01.08:736][722]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.07.11-06.01.08:736][722]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/stuff'
+[2014.07.11-06.01.16:850][996]LogDestructible:Warning: MainMesh Tris: 284
+[2014.07.11-06.01.17:034][996]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2014.07.11-06.01.17:034][996]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2014.07.11-06.01.17:060][996]LogSkeletalMesh: Chunk 0: 1205 rigid vertices, 0 soft vertices, 23 active bones
+[2014.07.11-06.01.17:060][996]LogSkeletalMesh: Chunk 1: 1464 rigid vertices, 0 soft vertices, 25 active bones
+[2014.07.11-06.01.17:063][996]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 1284 triangles
+[2014.07.11-06.01.17:063][996]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 974 triangles
+[2014.07.11-06.01.46:304][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/stuff/barrel_opt_small_DM" FILE="C:/Users/Chris/Documents/GitHub/FasterThanSmell/Content/stuff/barrel_opt_small_DM.uasset" SILENT=true
+[2014.07.11-06.01.46:565][478]LogSavePackage: Save=257.898956ms
+[2014.07.11-06.01.46:565][478]LogSavePackage: Moving 'C:/Users/Chris/Documents/GitHub/FasterThanSmell/Saved/barrel_opt_small_DMA7D9251642AC9CF4FAC8389F5FA9AA43.tmp' to 'C:/Users/Chris/Documents/GitHub/FasterThanSmell/Content/stuff/barrel_opt_small_DM.uasset'
+[2014.07.11-06.01.58:425][923]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.01.58:425][923]PIE: New page: SIE session: first (Jul 10, 2014, 8:01:58 PM)
+[2014.07.11-06.01.58:449][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023859s)
+[2014.07.11-06.01.58:450][923]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2014.07.11-06.01.58:450][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.024714s)
+[2014.07.11-06.01.58:450][923]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.01.58:451][923]LogSelection:Warning: PIE object was selected: "DestructibleActor /Game/Maps/UEDPIE_0_first.first:PersistentLevel.barrel_opt_small_DM_2"
+[2014.07.11-06.01.58:520][923]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.01.58
+[2014.07.11-06.01.58:521][923]LogWorld: Bringing up level for play took: 0.033432
+[2014.07.11-06.01.58:522][923]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.07.11-06.01.58:534][923]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first 0.426
+[2014.07.11-06.01.58:544][923]LogSelection:Warning: PIE object was selected: "DestructibleActor /Game/Maps/UEDPIE_0_first.first:PersistentLevel.barrel_opt_small_DM_2"
+[2014.07.11-06.01.58:634][924]LogRenderer:Warning: Reallocating scene render targets to support 1520x1264.
+[2014.07.11-06.02.00:923][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.07.11-06.02.00:923][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.07.11-06.02.00:945][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4D56B5580
+[2014.07.11-06.02.00:945][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F483F7EA20
+[2014.07.11-06.02.00:945][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4D7086200
+[2014.07.11-06.02.06:398][214]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.02.06:398][214]PIE: New page: PIE session: first (Jul 10, 2014, 8:02:06 PM)
+[2014.07.11-06.02.06:422][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023117s)
+[2014.07.11-06.02.06:422][214]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2014.07.11-06.02.06:422][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.023769s)
+[2014.07.11-06.02.06:422][214]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.02.06:465][214]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.02.06
+[2014.07.11-06.02.06:466][214]LogWorld: Bringing up level for play took: 0.014567
+[2014.07.11-06.02.06:467][214]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.07.11-06.02.06:467][214]LogGameMode: RestartPlayer 257
+[2014.07.11-06.02.06:467][214]LogPlayerController: ClientRestart_Implementation DefaultPawn_0
+[2014.07.11-06.02.06:467][214]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_0
+[2014.07.11-06.02.06:478][214]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first 0.37
+[2014.07.11-06.02.09:524][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F484CDECA0
+[2014.07.11-06.02.14:087][530]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.02.14:087][530]PIE: New page: SIE session: first (Jul 10, 2014, 8:02:14 PM)
+[2014.07.11-06.02.14:110][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022641s)
+[2014.07.11-06.02.14:110][530]LogPlayLevel: PIE: World Init took: (0.000440s)
+[2014.07.11-06.02.14:111][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.023244s)
+[2014.07.11-06.02.14:111][530]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.02.14:111][530]LogSelection:Warning: PIE object was selected: "DestructibleActor /Game/Maps/UEDPIE_0_first.first:PersistentLevel.barrel_opt_small_DM_2"
+[2014.07.11-06.02.14:154][530]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.02.14
+[2014.07.11-06.02.14:156][530]LogWorld: Bringing up level for play took: 0.014108
+[2014.07.11-06.02.14:156][530]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.07.11-06.02.14:167][530]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first 0.06
+[2014.07.11-06.02.14:176][530]LogSelection:Warning: PIE object was selected: "DestructibleActor /Game/Maps/UEDPIE_0_first.first:PersistentLevel.barrel_opt_small_DM_2"
+[2014.07.11-06.02.16:644][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4E7FCF7E0
+[2014.07.11-06.02.28:174][  5]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.07.11-06.02.28:174][  5]PIE: New page: SIE session: first (Jul 10, 2014, 8:02:28 PM)
+[2014.07.11-06.02.28:196][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021851s)
+[2014.07.11-06.02.28:196][  5]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2014.07.11-06.02.28:196][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/first.first to /Game/Maps/UEDPIE_0_first.first (0.022570s)
+[2014.07.11-06.02.28:196][  5]LogWorld: Game class is 'GameMode'
+[2014.07.11-06.02.28:197][  5]LogSelection:Warning: PIE object was selected: "DestructibleActor /Game/Maps/UEDPIE_0_first.first:PersistentLevel.barrel_opt_small_DM_2"
+[2014.07.11-06.02.28:235][  5]LogWorld: Bringing World /Game/Maps/UEDPIE_0_first.first up for play (max tick rate 0) at 2014.07.11-01.02.28
+[2014.07.11-06.02.28:237][  5]LogWorld: Bringing up level for play took: 0.014448
+[2014.07.11-06.02.28:237][  5]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
+[2014.07.11-06.02.28:248][  5]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_first 0.141
+[2014.07.11-06.02.28:257][  5]LogSelection:Warning: PIE object was selected: "DestructibleActor /Game/Maps/UEDPIE_0_first.first:PersistentLevel.barrel_opt_small_DM_2"
+[2014.07.11-06.02.32:508][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4846F1580
+[2014.07.11-06.04.25:723][316]LogEditorViewport: Clicking on Actor (context menu): DestructibleActor (barrel_opt_small_DM)
+[2014.07.11-06.05.59:971][239]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (barrel_opt_small_DM)
+[2014.07.11-06.06.59:252][504]LogEditorViewport: Clicking on Actor (context menu): DestructibleActor (barrel_opt_small_DM)
+[2014.07.11-06.07.17:177][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/stuff/barrel_opt_small_DM" FILE="C:/Users/Chris/Documents/GitHub/FasterThanSmell/Content/stuff/barrel_opt_small_DM.uasset" SILENT=true
+[2014.07.11-06.07.17:449][297]LogSavePackage: Save=264.705750ms
+[2014.07.11-06.07.17:449][297]LogSavePackage: Moving 'C:/Users/Chris/Documents/GitHub/FasterThanSmell/Saved/barrel_opt_small_DM82C0381C443837273BBB8B9912E70C3C.tmp' to 'C:/Users/Chris/Docume
+>>>>>>> origin/master
